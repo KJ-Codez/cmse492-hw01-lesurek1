@@ -1,0 +1,10 @@
+name: day03-conda-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12  # or your specific Python version
+  - numpy
+  - pandas
+  - matplotlib
+  # Add any other packages from your requirements.txt
