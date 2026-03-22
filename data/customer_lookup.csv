@@ -1,0 +1,13 @@
+customer_id,customer_name,region,segment
+C001,Alpha Co,Midwest,SMB
+C002,Bright Labs,West,Enterprise
+C003,Cedar Group,South,SMB
+C004,Delta Works,Northeast,Mid-Market
+C005,Echo Foods,Midwest,Enterprise
+C006,Forest Retail,West,SMB
+C007,Granite Systems,South,Mid-Market
+C008,Harbor Health,Northeast,Enterprise
+C009,Indigo Design,Midwest,SMB
+C010,Jupiter Media,West,Mid-Market
+C011,Kilo Energy,South,Enterprise
+C012,Lumen Transit,Northeast,SMB
