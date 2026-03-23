@@ -10,6 +10,7 @@ The data is stored in CSV format inside a `datafiles/` folder. The files include
 ---
 
 ## 3. Environment Setup  
+Run these commands in your terminal to ensure your environment is correct before running analysis
 
 Option 1 (Conda):
 ```bash
@@ -20,6 +21,11 @@ Option 2 (UV):
 ```bash
 uv sync
 uv run python analysis.py
+```
+
+Option 3 (Docker):
+```bash
+docker build -t sales-project .
 ```
 
 ## 4. Reproduce a Result  
@@ -34,6 +40,11 @@ python analysis.py
 Option 2 (UV):
 ```bash
 uv run python analysis.py
+```
+
+Option 3 (Docker)
+```bash
+docker run --rm sales-project
 ```
 
 After running the command, a new folder named *outputs/* will be created in the project directory. Inside this folder, you should see: *summary_by_region.csv* and *revenue_by_region.png* and terminal should print __Analysis complete.__ . *summary_by_region* should contain aggregated sales statistics by region and category. *revenue_by_region* should display a bar chart of revenue by region.
